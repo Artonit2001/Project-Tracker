@@ -6,11 +6,13 @@ const dmSerif = DM_Serif_Display({
   weight: ['400'],
   subsets: ['latin'],
   variable: '--font-dm-serif',
+  display: 'swap',
 })
 const outfit = Outfit({
   weight: ['300', '400', '500', '600'],
   subsets: ['latin'],
   variable: '--font-outfit',
+  display: 'swap',
 })
 
 export default function RootLayout({ children }) {
